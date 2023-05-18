@@ -1,0 +1,146 @@
+// .main-index {
+//      background-color: #333a56;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     gap: 10px;
+// }
+
+// .contenedor__reseña {
+//     width: 90%;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     text-align: center;
+//     color: rgb(255, 255, 255);
+//     padding: 15px;
+
+
+// }
+
+// .contenedor__tarjeta {
+//     background-color: #52658f;
+//     gap: 5px;
+//     border: 1px solid;
+//     padding: 20px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     text-align: center;
+//     width: 80%;
+//     border-radius: 5px;
+//     color: rgb(255, 251, 251);
+
+   
+// }
+
+// .lista__tarjeta {
+//     list-style: none;
+    
+    
+
+// }
+
+// .ul__profesional {
+//     list-style: none;
+// }
+
+// .cont__profesional {
+//     width: 200px;
+//     border: 1px solid;
+//     padding: 15px;
+//     color: rgb(244, 240, 240);
+//      background-color: #52658f;
+// }
+// .seccion__profesional {
+//     display: flex;
+//     padding: 10px;
+//     gap: 30px;
+//     justify-content: baseline;
+// }
+
+// CSS CON YOUTOBE
+
+
+
+
+// background imagen y barredo&asociados
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5),
+) 
+    ,url("../media/img-manos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+// tarjeta profesionales
+
+.lista__tarjeta {
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.ul__profesional {
+    list-style: none;
+}
+.seccion__profesional {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 30vh;
+    margin: 20px;
+
+
+}
+
+// tarjetas especialidades
+
+
+.contenedor__tarjetas {
+
+    padding: 20px 20px;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: rgb(243, 235, 235);
+    
+}
+
+
+.contenedor__tarjeta {
+padding: 50px;  
+background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5),
+) 
+    ,url("../media/img-justicia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+
+}
+
+.contenedor__especialidades {
+  gap: 50px;  
+}
+
+.especialidades__tarjetash2 {
+    margin-bottom: 10px;
+}
